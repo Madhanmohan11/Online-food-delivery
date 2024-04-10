@@ -1,0 +1,673 @@
+ body{
+    background-image:url(https://assets.zeezest.com/blogs/PROD_Ban_1665724167575_thumb_1200.jpeg) ;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;    
+    overflow-x: hidden; 
+    background-color:black;
+ }
+ h1{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    color: white;
+ }
+
+ h2{
+    color:white;
+    background-color:orange;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 270px;
+    right: 80px;
+    border-radius: 20px;
+     
+    
+ }
+
+ .are{
+    position:relative;
+    color:white;
+    background-color: black;
+    border-radius: 20px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    font-size:40px;
+    left: 200px;
+    top: 250px;
+ }
+ 
+ .dont{
+    position:relative;
+    color:yellow;
+    background-color:red;
+    border-radius: 20px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    font-size: 100px;
+    left: 100px;
+    top: 170px;
+ }
+ .let{
+    position:relative;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    width: 360px;
+    font-size:30px;
+    left: 180px;
+    top: 90px;
+ }
+ .button{
+    position:relative;
+    color: white;
+    text-decoration: none;
+    background-color: red;
+    display: flex;
+    justify-content: center ;
+    border-radius: 100px;
+    width: 100px;
+    font-size: 20px;
+    left: 330px;
+    top: 90px;
+
+ }
+ nav{
+    position: absolute;
+    left: 1020px;
+    top: 30px;
+    display: flex;
+    gap: 30px;
+    font-size:20px;
+
+ }
+ 
+ nav a{
+    color: white;
+    text-decoration: none;
+
+ }
+ nav a:hover{
+     background-color:orange;
+    border: 10px solid orange;
+    border-radius: 10px;
+
+ }
+  
+ .fi{
+    position:absolute;
+    left: 1100px;
+    bottom: 400px;
+    width: 150px;
+    height: 150px;
+    border: 5px solid white;
+    border-radius: 500px;
+    
+ }
+ pre{
+    position:absolute;
+    left: 1270px;
+    bottom: 450px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color:white;
+
+
+
+ }
+ .se{ position:absolute;
+    left: 900px;
+    bottom: 220px;
+    width: 150px;
+    height: 150px;
+    border: 5px solid white;
+    border-radius: 500px;
+
+ }
+ .chi{
+    position:absolute;
+    left: 1070px;
+    bottom: 262px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color:white;
+
+ }
+ .thir{
+    position:absolute;
+    left: 1110px;
+    bottom: 30px;
+    width: 150px;
+    height: 150px;
+    border: 5px solid white;
+    border-radius: 500px;
+     
+ }
+ .naan{
+    position:absolute;
+    left: 1278px;
+    bottom:70px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color:white;
+ }
+
+ /*order ----------------------------------------------------------------*/
+ 
+ .or{
+    background-image:url(bg.jpg) ;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat:repeat;    
+    overflow-x: hidden;
+     
+ }
+ .container{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    gap: 20px;
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    justify-content: center;
+    text-align: center;
+    
+    
+    
+ }
+  .item{
+    padding: 10px;
+    width:450px ;
+    height: 400px;
+    border-radius: 20px;
+    border: 3px solid white;
+    background-color:white;
+   
+  }
+  .item:hover {
+    box-shadow: 5px 10px 5px gray ;
+    border: 3px solid white;
+    background-color:white;
+  }
+  .Tandoori img{
+    width: 450px;
+    height: 300px;
+    border-radius: 20px;
+     
+    
+  }
+  .tb{
+    position:absolute;
+    top:390px;
+    left:190px;
+    width: 100px;
+    height: 30px;
+    border:2px solid green;
+    background: transparent;
+  }
+  .tb:hover,.cb:hover,.nb:hover,.ub:hover,.vb:hover,.pb:hover {
+    color: white;
+    background-color: green;
+  }
+  .t1{
+    position: absolute;
+    left: 20px;
+    top: 300px;
+  }
+  #t1{
+    position: absolute;
+    left: 19px;
+    top: 330px;
+    color: brown;
+  }
+  #t2{
+    position: absolute;
+    left: 410px;
+    top: 320px;
+    background-color:rgb(111, 239, 111);
+    color: rgb(255, 255, 255);
+    width: 45px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    transition: all .5s;
+  }
+  #t3{
+    position: absolute;
+    left: 380px;
+    top: 340px;
+    color: gray;
+
+  }
+  .Biryani img{
+    width: 450px;
+    height: 300px;
+    border-radius: 20px;
+  }
+  .cb{
+    position:absolute;
+    top:390px;
+    left:720px;
+    width: 100px;
+    height: 30px;
+    border:2px solid green;
+    background: transparent;
+  }
+  .b1{
+    position: absolute;
+    left: 540px;
+    top: 300px;
+  }
+  #b1{
+    position: absolute;
+    left: 540px;
+    top: 330px;
+    color: brown;
+  }
+  #b2{
+    position: absolute;
+    left: 933px;
+    top: 320px;
+    background-color: rgb(2, 152, 2);
+    color: white;
+    width: 45px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    transition: all .5s;
+  }
+  #b3{
+    position: absolute;
+    left: 900px;
+    top: 340px;
+    color: gray;
+
+  }
+
+  .Naan1 img{
+    width: 450px;
+    height: 300px;
+    border-radius: 20px;
+
+  }
+  .nb{
+    position:absolute;
+    top:830px;
+    left: 190px;
+    width: 100px;
+    height: 30px;
+    border:2px solid green;
+    background: transparent;
+
+  }
+  .n1{
+    position: absolute;
+    left: 20px;
+    top: 745px;
+  }
+  #n1{
+    position: absolute;
+    left: 19px;
+    top: 780px;
+    color: brown;
+  }
+  #n2{
+    position: absolute;
+    left: 410px;
+    top: 765px;
+    background-color:rgb(130, 243, 130);
+    color: rgb(255, 255, 255);
+    width: 45px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    transition: all .5s;
+  }
+  #n3{
+    position: absolute;
+    left: 360px;
+    top: 785px;
+    color: gray;
+
+  }
+  
+  .Uthappam img{
+    width: 450px;
+    height: 300px;
+    border-radius: 20px;
+  }
+  .ub{
+    position:absolute;
+    top:830px;
+    left: 720px;
+    width: 100px;
+    height: 30px;
+    border:2px solid green;
+    background: transparent;
+
+  }
+  .u1{
+    position: absolute;
+    left: 540px;
+    top: 745px;
+  }
+  #u1{
+    position: absolute;
+    left: 540px;
+    top: 780px;
+    color: brown;
+  }
+  #u2{
+    position: absolute;
+    left: 933px;
+    top: 765px;
+    background-color: rgb(3, 200, 3);
+    color: white;
+    width: 45px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    transition: all .5s;
+  }
+  #u3{
+    position: absolute;
+    left: 900px;
+    top: 785px;
+    color: gray;
+
+  }
+
+
+  .Puttu img{
+    width: 450px;
+    height: 300px;
+    border-radius: 20px;
+  }
+  .pb{
+    position:absolute;
+    top:1270px;
+    left: 190px;
+    width: 100px;
+    height: 30px;
+    border:2px solid green;
+    background: transparent;
+  }
+  .p1{
+    position: absolute;
+    left: 20px;
+    top: 1190px;
+  }
+  #p1{
+    position: absolute;
+    left: 19px;
+    top:1220px;
+    color: brown;
+  }
+  #p2{
+    position: absolute;
+    left: 410px;
+    top:1207px;
+    background-color:rgb(159, 238, 159);
+    color: rgb(255, 255, 255);
+    width: 45px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    transition: all .5s;
+  }
+  #p3{
+    position: absolute;
+    left: 380px;
+    top:1230px;
+    color: gray;
+
+  }
+
+  .Veg img{
+    width: 450px;
+    height: 300px;
+    border-radius: 20px;
+  }
+  .vb{
+    position:absolute;
+    top:1270px;
+    left: 720px;
+    width: 100px;
+    height: 30px;
+    border:2px solid green;
+    background: transparent;
+
+  }
+  .v1{
+    position: absolute;
+    left: 540px;
+    top:1190px;
+  }
+  #v1{
+    position: absolute;
+    left: 540px;
+    top:1225px;
+    color: brown;
+  }
+  #v2{
+    position: absolute;
+    left: 933px;
+    top:1209px;
+    background-color: rgb(1, 61, 1);
+    color: white;
+    width: 45px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    transition: all .5s;
+  }
+  #v3{
+    position: absolute;
+    left: 900px;
+    top:1230px;
+    color: gray;
+
+  }
+  
+/*--------------Forms------------------------------*/
+
+
+.fb{
+    background-image:;
+    
+}
+.fs{
+    display: flex;
+     
+    position:absolute;
+    top: 120px;
+    left: 500px;
+    padding: 50px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    background-color:transparent;
+    backdrop-filter: blur(10px);
+}
+
+.wr{
+    color: aliceblue; 
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    font-size:20px;
+    border-spacing:25px;
+}
+#fb{
+    position: absolute;
+    bottom: 60px;
+    right: 200px;
+    border: 1px solid black ;
+    border-radius:2px ;
+    background-color:gainsboro;
+    font-size: 20px;
+    color:black;
+}
+#fb:hover,#fb :active{
+    color: white;
+    background-color: green;
+    border-radius: 20px;
+}
+
+/*----------------------------------About Us-----------------------------*/
+#abt{
+    background-image: none;
+}
+.au{
+    color:white;
+    font-size: 30px;
+    position:relative;
+    top: 40p;
+    left:100px;
+}
+#hd{
+    position: absolute;
+    top: 50px;
+    font-size: 40px;
+}
+.head{
+    border: 2px solid white;
+    width: 1450px;
+    height: 200px;
+    border-radius: 5px;
+    position: absolute;
+    top: 90px;
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    
+}
+.con{
+    position: absolute;
+    top: 410px;
+    color: white;
+}
+#para1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: goldenrod;
+    
+}
+.pp{
+    border: 2px solid white;
+    background-color: wheat;
+    position: absolute;
+    top: ;
+    left: 300px;
+    width: 900px;
+    height:120px;
+    font-size: 30px;
+
+}
+.pil{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    width: 1100px;
+
+}
+
+/*-------------------------------------contact----------------------------------*/
+ 
+
+.icon{
+  background-image: url(cont\ bg.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat:repeat;    
+  overflow-x: hidden;
+ }
+
+ #gmaili{
+  color: white;
+  position: absolute;
+  font-size:50px;
+  left:400px;
+  top: 300px;
+ }
+ #gmailw{
+  color: white;
+  position: absolute;
+  font-size:50px;
+  left:460px;
+  top: 295px;
+ }
+ #gmailw a:hover{
+  color:red;
+ }
+ 
+ #instai{
+  position: absolute;
+  font-size:50px;
+  left:400px;
+  top: 400px;
+ }
+ #instaw{
+  position: absolute;
+  font-size:50px;
+  left:460px;
+  top: 395px;
+ }
+ #instaw a:hover{
+  color: orangered;
+ }
+
+ #fbi{
+  position: absolute;
+  font-size:50px;
+  left:400px;
+  top: 500px;
+ }
+ #fbw{
+  position: absolute;
+  font-size:50px;
+  left:460px;
+  top:495px;
+ }
+ #fbw a:hover{
+  color:blue;
+ }
+
+
+
+ div a{
+    position: absolute;
+    color:white;
+    text-decoration: none;
+}
+
+iframe{
+  position: absolute;
+  left: 700px;
+  top: 300px;
+  width: 400px;
+  height: 250px;
+
+ 
+}
+
